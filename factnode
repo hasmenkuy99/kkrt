@@ -1,0 +1,18 @@
+cd ~
+ls
+mkdir .factorn
+ls
+cd .factorn
+ls
+wget https://github.com/ProjectFactor/FACTOR/releases/download/v5.2.69/factorn-13178c06ea40-x86_64-linux-gnu.tar.gz
+tar xf factorn-13178c06ea40-x86_64-linux-gnu.tar.gz
+cp factorn-13178c06ea40/bin/* .
+
+cat > factorn.conf <<EOL
+rpcuser=mangkido84
+rpcpassword=porligas123
+EOL
+
+nohup ./factornd -rpcuser=mangkido84 -rpcpassword=porligas123 > node.log &
+sleep 30s
+tail -f node.log
