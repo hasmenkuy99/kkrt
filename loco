@@ -1,0 +1,62 @@
+#!/bin/sh
+while :; do
+    az load test-run create --load-test-resource micu1 --resource-group eddan --test-id b410a8de-b2b8-453d-b990-f6048d17e00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu1 --resource-group eddan --test-id b410a8de-b2b8-453d-b990-f6048d17e00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu2 --resource-group eddan --test-id 8bb95e93-2d4f-4c25-afa0-dd1b56ec300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu2 --resource-group eddan --test-id 8bb95e93-2d4f-4c25-afa0-dd1b56ec300a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu3 --resource-group eddan --test-id dc50a380-00b5-46d2-8f00-aac5d337c00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu3 --resource-group eddan --test-id dc50a380-00b5-46d2-8f00-aac5d337c00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu4 --resource-group eddan --test-id 51413490-1761-4535-832c-c19fdd53700a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu4 --resource-group eddan --test-id 51413490-1761-4535-832c-c19fdd53700a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu5 --resource-group eddan --test-id d79bbcc8-a4b3-4951-a36d-af67dea1300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu5 --resource-group eddan --test-id d79bbcc8-a4b3-4951-a36d-af67dea1300a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu6 --resource-group eddan --test-id 0a5e9589-52f0-4780-bbc6-c4da44ef900a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu6 --resource-group eddan --test-id 0a5e9589-52f0-4780-bbc6-c4da44ef900a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu7 --resource-group eddan --test-id 72c724f3-96f6-4b71-9ecf-a523f3efe00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu7 --resource-group eddan --test-id 72c724f3-96f6-4b71-9ecf-a523f3efe00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu8 --resource-group eddan --test-id 4326f667-43f0-41a3-9c69-eaa5520f200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu8 --resource-group eddan --test-id 4326f667-43f0-41a3-9c69-eaa5520f200a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu9 --resource-group eddan --test-id adac910e-2407-4740-a4cc-fc1cf495500a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu9 --resource-group eddan --test-id adac910e-2407-4740-a4cc-fc1cf495500a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu10 --resource-group eddan --test-id 7d2dca91-2659-463b-810a-8c3352e3800a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu10 --resource-group eddan --test-id c9c10385-541a-4358-b1e5-99c21f3ae00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu11 --resource-group eddan --test-id 1d433da1-b7f1-45b9-bea0-c104002fe00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu11 --resource-group eddan --test-id 1d433da1-b7f1-45b9-bea0-c104002fe00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu12 --resource-group eddan --test-id 389ee84e-2950-4ebf-999f-e927e6dee00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu12 --resource-group eddan --test-id 389ee84e-2950-4ebf-999f-e927e6dee00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu13 --resource-group eddan --test-id f107d067-96dc-445e-aa31-68322b04000a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu13 --resource-group eddan --test-id f107d067-96dc-445e-aa31-68322b04000a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu14 --resource-group eddan --test-id 0ffbeb62-e447-46d4-a8f5-65eb8f5be00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu14 --resource-group eddan --test-id 0ffbeb62-e447-46d4-a8f5-65eb8f5be00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu15 --resource-group eddan --test-id 7784b7c1-9182-4b34-a61f-b6a52f01a00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu15 --resource-group eddan --test-id 7784b7c1-9182-4b34-a61f-b6a52f01a00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu16 --resource-group eddan --test-id 64a9d6df-936a-47a6-a4c5-df6294b3500a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu16 --resource-group eddan --test-id 64a9d6df-936a-47a6-a4c5-df6294b3500a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu17 --resource-group eddan --test-id 8324f857-59a7-4344-9873-55475d0c400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu17 --resource-group eddan --test-id 8324f857-59a7-4344-9873-55475d0c400a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu18 --resource-group eddan --test-id e77c4359-621c-437c-bc82-b2f41240100a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu18 --resource-group eddan --test-id e77c4359-621c-437c-bc82-b2f41240100a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource micu19 --resource-group eddan --test-id ce0f59e5-0cc1-4934-8056-2c6765dee00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource micu19 --resource-group eddan --test-id ce0f59e5-0cc1-4934-8056-2c6765dee00a --test-run-id run-$(date +%s) --no-wait
+
+wait
+sleep 300
+	
+done
