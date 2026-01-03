@@ -1,0 +1,54 @@
+#!/bin/sh
+while :; do
+    az load test-run create --load-test-resource weta1 --resource-group itet --test-id 26043c7c-7f1d-4ca7-9fd2-6df74e48900d --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta1 --resource-group itet --test-id 26043c7c-7f1d-4ca7-9fd2-6df74e48900d --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta2 --resource-group itet --test-id b0cb7b59-4046-4d8b-b451-4c1d68ed200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta2 --resource-group itet --test-id b0cb7b59-4046-4d8b-b451-4c1d68ed200a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta3 --resource-group itet --test-id a1d07cb5-6d89-4a67-983c-c606d7f2b00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta3 --resource-group itet --test-id a1d07cb5-6d89-4a67-983c-c606d7f2b00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta4 --resource-group itet --test-id 022ecefb-30db-4d8c-9af6-5e7faa7a300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta4 --resource-group itet --test-id 022ecefb-30db-4d8c-9af6-5e7faa7a300a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta5 --resource-group itet --test-id 405cd76d-a9c3-47cb-b6c2-656dbc81f00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta5 --resource-group itet --test-id 405cd76d-a9c3-47cb-b6c2-656dbc81f00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta6 --resource-group itet --test-id 30fc033c-0e05-46fe-8780-0664b05cf00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta6 --resource-group itet --test-id 30fc033c-0e05-46fe-8780-0664b05cf00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta7 --resource-group itet --test-id 110adc5d-3a13-482f-9939-cbbc23b7200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta7 --resource-group itet --test-id 110adc5d-3a13-482f-9939-cbbc23b7200a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta8 --resource-group itet --test-id d5b76233-8498-417f-aa98-cf678ff5200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta8 --resource-group itet --test-id d5b76233-8498-417f-aa98-cf678ff5200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta9 --resource-group itet --test-id e41d1bf7-2e6b-4c11-8f72-281a35dd800a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta9 --resource-group itet --test-id e41d1bf7-2e6b-4c11-8f72-281a35dd800a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta10 --resource-group itet --test-id ee000c67-d0f2-46f1-ae3e-ba62dca5400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta10 --resource-group itet --test-id ee000c67-d0f2-46f1-ae3e-ba62dca5400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta11 --resource-group itet --test-id 3c942799-3355-4156-80c7-db57a3d68055 --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta11 --resource-group itet --test-id 3c942799-3355-4156-80c7-db57a3d68055 --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta12 --resource-group itet --test-id 35ef907f-11e5-4992-bf5d-24fef434100a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta12 --resource-group itet --test-id 35ef907f-11e5-4992-bf5d-24fef434100a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta13 --resource-group itet --test-id c81332cb-6ddf-415b-a9bd-534ff860a00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta13 --resource-group itet --test-id c81332cb-6ddf-415b-a9bd-534ff860a00a --test-run-id run-$(date +%s) --no-wait
+
+    az load test-run create --load-test-resource weta14 --resource-group itet --test-id b09c8334-f630-49b1-aa9c-4a9b6133a00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta14 --resource-group itet --test-id b09c8334-f630-49b1-aa9c-4a9b6133a00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta15 --resource-group itet --test-id 248c76c8-c464-42b6-a298-34068076700a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta15 --resource-group itet --test-id 248c76c8-c464-42b6-a298-34068076700a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta16 --resource-group itet --test-id 4c9ec7c3-2a63-430d-8b81-7c63d578300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta16 --resource-group itet --test-id 4c9ec7c3-2a63-430d-8b81-7c63d578300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta17 --resource-group itet --test-id 7656360b-f8ba-48cb-bfc3-666b61a4500a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta17 --resource-group itet --test-id 7656360b-f8ba-48cb-bfc3-666b61a4500a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta18 --resource-group itet --test-id 6df35561-f24f-4d7f-8665-01be8bf4e00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta18 --resource-group itet --test-id 6df35561-f24f-4d7f-8665-01be8bf4e00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta19 --resource-group itet --test-id 24c47a61-92d0-455a-aaef-1d5d8ecb900a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource weta19 --resource-group itet --test-id 24c47a61-92d0-455a-aaef-1d5d8ecb900a --test-run-id run-$(date +%s) --no-wait
+
+wait
+sleep 300
+	
+done
