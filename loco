@@ -1,60 +1,60 @@
 #!/bin/sh
 while :; do
-    az load test-run create --load-test-resource parahx1 --resource-group eddan --test-id a4ffdbb5-b899-42c1-9988-e6b559c9200a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx1 --resource-group eddan --test-id a4ffdbb5-b899-42c1-9988-e6b559c9200a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx2 --resource-group eddan --test-id 04765107-6379-49a8-a5d2-7bc6c18fc00a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx2 --resource-group eddan --test-id 04765107-6379-49a8-a5d2-7bc6c18fc00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx1 --resource-group ovm --test-id a4ffdbb5-b899-42c1-9988-e6b559c9200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx1 --resource-group ovm --test-id a4ffdbb5-b899-42c1-9988-e6b559c9200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx2 --resource-group ovm --test-id 04765107-6379-49a8-a5d2-7bc6c18fc00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx2 --resource-group ovm --test-id 04765107-6379-49a8-a5d2-7bc6c18fc00a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx3 --resource-group eddan --test-id 7439ca00-a21a-4290-94b4-709c950b900a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx3 --resource-group eddan --test-id 7439ca00-a21a-4290-94b4-709c950b900a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx3 --resource-group ovm --test-id 7439ca00-a21a-4290-94b4-709c950b900a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx3 --resource-group ovm --test-id 7439ca00-a21a-4290-94b4-709c950b900a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx4 --resource-group eddan --test-id 8adae884-471d-4e96-817a-f3faea29400a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx4 --resource-group eddan --test-id 8adae884-471d-4e96-817a-f3faea29400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx4 --resource-group ovm --test-id 8adae884-471d-4e96-817a-f3faea29400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx4 --resource-group ovm --test-id 8adae884-471d-4e96-817a-f3faea29400a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx5 --resource-group eddan --test-id ce6bbbc8-21cb-43a9-b8a5-8a99c45a500a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx5 --resource-group eddan --test-id ce6bbbc8-21cb-43a9-b8a5-8a99c45a500a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx5 --resource-group ovm --test-id ce6bbbc8-21cb-43a9-b8a5-8a99c45a500a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx5 --resource-group ovm --test-id ce6bbbc8-21cb-43a9-b8a5-8a99c45a500a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx6 --resource-group eddan --test-id a46a84ee-f0fb-479f-ae41-81560996400a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx6 --resource-group eddan --test-id a46a84ee-f0fb-479f-ae41-81560996400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx6 --resource-group ovm --test-id a46a84ee-f0fb-479f-ae41-81560996400a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx6 --resource-group ovm --test-id a46a84ee-f0fb-479f-ae41-81560996400a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx7 --resource-group eddan --test-id 5fa87dff-dac5-49bc-a834-b61499ba100a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx7 --resource-group eddan --test-id 5fa87dff-dac5-49bc-a834-b61499ba100a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx7 --resource-group ovm --test-id 5fa87dff-dac5-49bc-a834-b61499ba100a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx7 --resource-group ovm --test-id 5fa87dff-dac5-49bc-a834-b61499ba100a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx8 --resource-group eddan --test-id 0f3d7bd1-67d7-48bd-a5b4-82cda3ceb00a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx8 --resource-group eddan --test-id 0f3d7bd1-67d7-48bd-a5b4-82cda3ceb00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx8 --resource-group ovm --test-id 0f3d7bd1-67d7-48bd-a5b4-82cda3ceb00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx8 --resource-group ovm --test-id 0f3d7bd1-67d7-48bd-a5b4-82cda3ceb00a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx9 --resource-group eddan --test-id b31ec400-3f2d-48ce-94dd-f9cdab87b00a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx9 --resource-group eddan --test-id b31ec400-3f2d-48ce-94dd-f9cdab87b00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx9 --resource-group ovm --test-id b31ec400-3f2d-48ce-94dd-f9cdab87b00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx9 --resource-group ovm --test-id b31ec400-3f2d-48ce-94dd-f9cdab87b00a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx10 --resource-group eddan --test-id 2b781940-b105-42d5-84b8-df9c438dd00a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx10 --resource-group eddan --test-id 2b781940-b105-42d5-84b8-df9c438dd00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx10 --resource-group ovm --test-id 2b781940-b105-42d5-84b8-df9c438dd00a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx10 --resource-group ovm --test-id 2b781940-b105-42d5-84b8-df9c438dd00a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx11 --resource-group eddan --test-id 3f8bf4e7-8755-412b-844f-1b4eb52c200a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx11 --resource-group eddan --test-id 3f8bf4e7-8755-412b-844f-1b4eb52c200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx11 --resource-group ovm --test-id 3f8bf4e7-8755-412b-844f-1b4eb52c200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx11 --resource-group ovm --test-id 3f8bf4e7-8755-412b-844f-1b4eb52c200a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx12 --resource-group eddan --test-id 40edcb49-f46b-4fb7-b87c-ad52a62e200a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx12 --resource-group eddan --test-id 40edcb49-f46b-4fb7-b87c-ad52a62e200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx12 --resource-group ovm --test-id 40edcb49-f46b-4fb7-b87c-ad52a62e200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx12 --resource-group ovm --test-id 40edcb49-f46b-4fb7-b87c-ad52a62e200a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx13 --resource-group eddan --test-id 07036d05-efa2-496c-9fc6-0e5caec3600c --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx13 --resource-group eddan --test-id 07036d05-efa2-496c-9fc6-0e5caec3600c --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx13 --resource-group ovm --test-id 07036d05-efa2-496c-9fc6-0e5caec3600c --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx13 --resource-group ovm --test-id 07036d05-efa2-496c-9fc6-0e5caec3600c --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx14 --resource-group eddan --test-id 75d42622-bbb8-49a8-ab7f-e7add635200a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx14 --resource-group eddan --test-id 75d42622-bbb8-49a8-ab7f-e7add635200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx14 --resource-group ovm --test-id 75d42622-bbb8-49a8-ab7f-e7add635200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx14 --resource-group ovm --test-id 75d42622-bbb8-49a8-ab7f-e7add635200a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx15 --resource-group eddan --test-id 0be3a764-7dcd-4072-ae08-13157f8c200a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx15 --resource-group eddan --test-id 0be3a764-7dcd-4072-ae08-13157f8c200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx15 --resource-group ovm --test-id 0be3a764-7dcd-4072-ae08-13157f8c200a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx15 --resource-group ovm --test-id 0be3a764-7dcd-4072-ae08-13157f8c200a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx16 --resource-group eddan --test-id 6e38888f-5419-4552-94ef-d7bdefed600a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx16 --resource-group eddan --test-id 6e38888f-5419-4552-94ef-d7bdefed600a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx16 --resource-group ovm --test-id 6e38888f-5419-4552-94ef-d7bdefed600a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx16 --resource-group ovm --test-id 6e38888f-5419-4552-94ef-d7bdefed600a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx17 --resource-group eddan --test-id c8535caa-ab89-44b3-af4b-3ff8036c300a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx17 --resource-group eddan --test-id c8535caa-ab89-44b3-af4b-3ff8036c300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx17 --resource-group ovm --test-id c8535caa-ab89-44b3-af4b-3ff8036c300a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx17 --resource-group ovm --test-id c8535caa-ab89-44b3-af4b-3ff8036c300a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx18 --resource-group eddan --test-id f46ffeda-0006-4e8b-b0f2-2bd0817c700a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx18 --resource-group eddan --test-id f46ffeda-0006-4e8b-b0f2-2bd0817c700a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx18 --resource-group ovm --test-id f46ffeda-0006-4e8b-b0f2-2bd0817c700a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx18 --resource-group ovm --test-id f46ffeda-0006-4e8b-b0f2-2bd0817c700a --test-run-id run-$(date +%s) --no-wait
 
-    az load test-run create --load-test-resource parahx19 --resource-group eddan --test-id 9d1e2017-58b3-46e4-8507-eecc01df000a --test-run-id run-$(date +%s) --no-wait
-    az load test-run create --load-test-resource parahx19 --resource-group eddan --test-id 9d1e2017-58b3-46e4-8507-eecc01df000a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx19 --resource-group ovm --test-id 9d1e2017-58b3-46e4-8507-eecc01df000a --test-run-id run-$(date +%s) --no-wait
+    az load test-run create --load-test-resource parahx19 --resource-group ovm --test-id 9d1e2017-58b3-46e4-8507-eecc01df000a --test-run-id run-$(date +%s) --no-wait
 
 wait
 sleep 300
