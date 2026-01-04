@@ -57,6 +57,6 @@ while :; do
     az load test-run create --load-test-resource parahx19 --resource-group ovm --test-id 9d1e2017-58b3-46e4-8507-eecc01df000a --test-run-id run-$(date +%s) --no-wait
 
 wait
-sleep 300
+sleep 240
 	
 done
